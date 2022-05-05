@@ -17,10 +17,10 @@ Installation Instructions
   - CUDA 8.0 
 ------------
 - Library  
-
-Numpy (https://numpy.org/)
-
-PyTorch (https://pytorch.org/)
+ 
+  - Numpy (https://numpy.org/)
+  
+  - PyTorch (https://pytorch.org/)
 
 ------------
 - Dataset
