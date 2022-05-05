@@ -7,6 +7,7 @@ During the pandemic, wearing masks makes it much more difficult for face recogni
 
 
 ------------
+Installation Instructions 
 - Requirement 
 
   - Python
@@ -16,7 +17,7 @@ During the pandemic, wearing masks makes it much more difficult for face recogni
   - CUDA 8.0 
   
 ------------
-- Library 
+- Library  
 
 Numpy (https://numpy.org/)
 
