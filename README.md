@@ -1,4 +1,4 @@
-# EC-523-final-project-Face-Mask-Prediction
+# Masked Face Recognition based on IResNet and ResSaNet
 ------------
 
 - Introduction 
