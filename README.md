@@ -29,7 +29,7 @@ The dataset we used is MS1M-RetinaFace, which containing over 10 million images 
 
 - Dataset Processing (Adding Masks Installation)
 - Steps to install MaskTheFace
-We recommend[make a new virtual environment](https://towardsdatascience.com/setting-up-python-platform-for-machine-learning-projects-cfd85682c54b) with Python 3 and install the dependencies. 
+We recommend to [make a new virtual environment](https://towardsdatascience.com/setting-up-python-platform-for-machine-learning-projects-cfd85682c54b) with Python 3 and install the dependencies. 
 - Clone the repository
 ```
 git clone https://github.com/aqeelanwar/MaskTheFace.git
