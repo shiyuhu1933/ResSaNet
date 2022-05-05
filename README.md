@@ -90,6 +90,8 @@ ArcFace loss is a loss function used in face recognition tasks. It is the propos
 
 ------------
 - Results
+
+
 For all the models, we set the learning rate to 0.05, the optimizer to SGD, and the weight decay to 5e-4.By training the different Residual models with the same number of batches 512 on the Masked-Face Datasets, we could get the accuracy as follows:
 
 | Model         | Accuracy      |
