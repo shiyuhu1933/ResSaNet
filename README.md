@@ -110,4 +110,8 @@ ArcFace loss is a loss function used in face recognition tasks. It is the propos
 
 [5] A. Anwar, A. Raychowdhury. Masked Face Recognition for Secure Authentication, arXiv.org, 2020. 
 
-[6] I. C. Duta, L. Liu, F. Zhu, L. Shao.  Improved residual networks for image and video recognition. In 2020 25th International Conference on Pattern 
+[6] I. C. Duta, L. Liu, F. Zhu, L. Shao.  Improved residual networks for image and video recognition. In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 9415-9422), 2021.
+
+[7] A, Srinivas., T, Lin., N, Parmar., J, Shlens., P, Abbeel., A, Vaswani. (2021). Bottleneck Transformers for Visual Recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16514-16524), 2021.
+
+
