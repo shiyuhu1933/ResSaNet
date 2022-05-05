@@ -51,7 +51,7 @@ This will install the required packages in the activated Python environment.
 cd MaskTheFace
 - Generic
 python mask_the_face.py --path <path-to-file-or-dir> --mask_type <type-of-mask> --verbose --write_original_image
-
+```
 - @misc{anwar2020masked,
 title={Masked Face Recognition for Secure Authentication},
 author={Aqeel Anwar and Arijit Raychowdhury},
