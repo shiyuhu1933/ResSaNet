@@ -10,7 +10,7 @@ During the pandemic, wearing masks makes it much more difficult for face recogni
 Installation Instructions 
 - Requirement 
 
-  - Python
+  - Python 3.6
  
   - Pytorch 0.3.\*
   
