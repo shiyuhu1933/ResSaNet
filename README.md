@@ -7,14 +7,13 @@ Wearing masks during a pandemic makes face identification much more difficult. I
 
 
 ------------
-## Installation Instructions 
-### Requirement 
+## Requirement 
 
   - Python 3.6  
   - Pytorch 0.3.\*
   - CUDA 8.0 
 ------------
-### Library  
+## Library  
  
   - Numpy (https://numpy.org/)
   - PyTorch (https://pytorch.org/)
