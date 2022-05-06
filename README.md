@@ -47,12 +47,16 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
     
     ![image](https://user-images.githubusercontent.com/90427304/162338283-564a7f66-0e18-49ba-847b-ebd394cca820.png)
     
-    [MHSA](https://github.com/leaderj1001/BottleneckTransformers/blob/main/model.py) 
+    <img src="https://github.com/shiyuhu1933/ResSaNet/blob/main/readme/Screen%20Shot%202022-05-06%20at%203.53.16%20AM.png" alt="drawing" width="600"/>
+    
+    <img src="https://github.com/shiyuhu1933/ResSaNet/blob/main/readme/Screen%20Shot%202022-05-06%20at%203.54.27%20AM.png" alt="drawing" width="1000"/>
+    
+    Reference of MHSA block: https://github.com/leaderj1001/BottleneckTransformers
 
 ------------
 ## Loss
 
-ArcFace loss is a loss function used in face recognition tasks. It is the proposed based on softmax loss.
+ArcFace loss [1] is a loss function used in face recognition tasks. It is the proposed based on softmax loss.
 
 ![image](https://user-images.githubusercontent.com/90427304/162339549-b53a9e00-39ce-4297-bd34-1b863eb4f4a0.png)
 
