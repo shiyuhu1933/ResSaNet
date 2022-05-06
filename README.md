@@ -28,31 +28,9 @@ Installation Instructions
 The dataset we used is MS1M-RetinaFace, which containing over 10 million images of nearly 100,000 individuals. In addition, we add masks to the images in MS1M-RetinaFace by using the MaskTheFace toolkit. About 8% of total images are added masks successfully. The number of masked face images for each individual ranges from 0 to 180. To get a relatively large dataset, we keep images of the individual who has more than 100 masked face images. Besides, data augmentation is implemented by rotating and flipping the images. The cleaned dataset contains around 400 classes and ~60,000 images. 90% of the data is classified as training data and the rest is classified as testing data. 
 
 - Dataset Processing (Adding Masks Installation)
-- Steps to install MaskTheFace
-We recommend to [make a new virtual environment](https://towardsdatascience.com/setting-up-python-platform-for-machine-learning-projects-cfd85682c54b) with Python 3 and install the dependencies. 
-- Clone the repository
-```
-git clone https://github.com/aqeelanwar/MaskTheFace.git
-```
+We use the MaskTheFace toolkit created by Aqeel Anwar and Arijit Raychowdhury
+Source: https://github.com/aqeelanwar/MaskTheFace
 
-- Install required packages
-The provided requirements.txt file can be used to install all the required packages. Use the following command
-
-```
-cd MaskTheFace
-pip install –r requirements.txt
-```
-
-This will install the required packages in the activated Python environment.
-
-- How to run MaskTheFace
-
-```
-cd MaskTheFace
-- Generic
-python mask_the_face.py --path <path-to-file-or-dir> --mask_type <type-of-mask> --verbose --write_original_image
-```
-Source:
 ```
 @misc{anwar2020masked,
 title={Masked Face Recognition for Secure Authentication},
@@ -61,6 +39,7 @@ year={2020},
 eprint={2008.11104},
 archivePrefix={arXiv},
 primaryClass={cs.CV}
+} 
 ```
 
 ------------
