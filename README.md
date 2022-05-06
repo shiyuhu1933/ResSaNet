@@ -52,7 +52,8 @@ cd MaskTheFace
 - Generic
 python mask_the_face.py --path <path-to-file-or-dir> --mask_type <type-of-mask> --verbose --write_original_image
 ```
-
+Source:
+```
 @misc{anwar2020masked,
 title={Masked Face Recognition for Secure Authentication},
 author={Aqeel Anwar and Arijit Raychowdhury},
@@ -60,7 +61,7 @@ year={2020},
 eprint={2008.11104},
 archivePrefix={arXiv},
 primaryClass={cs.CV}
-
+```
 
 ------------
 -Module
@@ -84,7 +85,7 @@ primaryClass={cs.CV}
     
     ![image](https://user-images.githubusercontent.com/90427304/162338283-564a7f66-0e18-49ba-847b-ebd394cca820.png)
     
-    Reference of Multi-head Attention block: https://github.com/leaderj1001/BottleneckTransformers
+    Source of Multi-head Self Attention block: https://github.com/leaderj1001/BottleneckTransformers
 
 ------------
 - Loss
