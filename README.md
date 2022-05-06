@@ -1,24 +1,22 @@
 # Masked Face Recognition based on IResNet and ResSaNet
-------------
 
 ## Introduction 
 
 Wearing masks during a pandemic makes face identification much more difficult. In this case, it is vital to improve user face recognition performance. Our aim in this project is to generate a feature extraction backbone called Residual Networks, for example, IResNet and ResSaNet. By using Residual Networks, it would be able to integrate the self-attention module and CNN into the same network.  In this project, it would be difficult to capture discriminative features for face recognition. An additive Angular Margin Loss (ArcFace) would also be introduced to face this challenge.
 
 
-------------
 ## Requirement 
 
   - Python 3.6  
   - Pytorch 0.3.\*
   - CUDA 8.0 
-------------
+
 ## Library  
  
   - Numpy (https://numpy.org/)
   - PyTorch (https://pytorch.org/)
 
-------------
+
 ## Dataset
 
 The dataset we used is [MS1M-RetinaFace](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_), which containing over 10 million images of nearly 100,000 individuals. In addition, we add masks to the images in MS1M-RetinaFace by using the MaskTheFace toolkit. About 8% of total images are added masks successfully. The number of masked face images for each individual ranges from 0 to 180. To get a relatively large dataset, we keep images of the individual who has more than 100 masked face images. Besides, data augmentation is implemented by rotating and flipping the images. The cleaned dataset contains around 400 classes and ~60,000 images. 90% of the data is classified as training data and the rest is classified as testing data. 
@@ -26,7 +24,6 @@ The dataset we used is [MS1M-RetinaFace](https://github.com/deepinsight/insightf
 ### Dataset Processing (Adding Masks)
 We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) created by Aqeel Anwar and Arijit Raychowdhury <br />
 
-------------
 ## Module
   - [ResNet](https://pytorch.org/hub/pytorch_vision_resnet/)
     
@@ -52,7 +49,7 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
     
     Reference of MHSA block: https://github.com/leaderj1001/BottleneckTransformers
 
-------------
+
 ## Loss
 
 ArcFace loss [1] is a loss function used in face recognition tasks. It is the proposed based on softmax loss.
@@ -60,7 +57,6 @@ ArcFace loss [1] is a loss function used in face recognition tasks. It is the pr
 ![image](https://user-images.githubusercontent.com/90427304/162339549-b53a9e00-39ce-4297-bd34-1b863eb4f4a0.png)
 
 
-------------
 ## Results
 
 For all the models, we set the learning rate to 0.05, the optimizer to SGD, and the weight decay to 5e-4.By training the different Residual models with the same number of batches 512 on the Masked-Face Datasets, we could get the accuracy as follows:
@@ -83,7 +79,6 @@ By training the baseline model IResNet-50 on two datasets, we got the accuracy a
 
 
 
-------------
 ## Maintainers
 
  Fei Gao           gaof@bu.edu
@@ -91,8 +86,7 @@ By training the baseline model IResNet-50 on two datasets, we got the accuracy a
  Shiwen Tang       shiwent@bu.edu
  
  Shiyu Hu          shiyuhu@bu.edu
- 
-------------
+
 ## REFERRENCE
 
 [1] J. Deng, J. Guo, N. Xue, S. Zafeiriou. Arcface: Additive angular margin loss for deep face recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 4690-4699), 2019.
