@@ -22,40 +22,26 @@ Wearing masks during a pandemic makes face identification much more difficult. I
 ------------
 ## Dataset
 
-The dataset we used is MS1M-RetinaFace, which containing over 10 million images of nearly 100,000 individuals. In addition, we add masks to the images in MS1M-RetinaFace by using the MaskTheFace toolkit. About 8% of total images are added masks successfully. The number of masked face images for each individual ranges from 0 to 180. To get a relatively large dataset, we keep images of the individual who has more than 100 masked face images. Besides, data augmentation is implemented by rotating and flipping the images. The cleaned dataset contains around 400 classes and ~60,000 images. 90% of the data is classified as training data and the rest is classified as testing data. 
+The dataset we used is [MS1M-RetinaFace](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_), which containing over 10 million images of nearly 100,000 individuals. In addition, we add masks to the images in MS1M-RetinaFace by using the MaskTheFace toolkit. About 8% of total images are added masks successfully. The number of masked face images for each individual ranges from 0 to 180. To get a relatively large dataset, we keep images of the individual who has more than 100 masked face images. Besides, data augmentation is implemented by rotating and flipping the images. The cleaned dataset contains around 400 classes and ~60,000 images. 90% of the data is classified as training data and the rest is classified as testing data. 
 
-### Dataset Processing (Adding Masks Installation)
-We use the MaskTheFace toolkit created by Aqeel Anwar and Arijit Raychowdhury
-Source: https://github.com/aqeelanwar/MaskTheFace
-
-```
-@misc{anwar2020masked,
-title={Masked Face Recognition for Secure Authentication},
-author={Aqeel Anwar and Arijit Raychowdhury},
-year={2020},
-eprint={2008.11104},
-archivePrefix={arXiv},
-primaryClass={cs.CV}
-} 
-```
+### Dataset Processing (Adding Masks)
+We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) created by Aqeel Anwar and Arijit Raychowdhury <br />
 
 ------------
 ## Module
-  ### ResNet
+  - [ResNet](https://pytorch.org/hub/pytorch_vision_resnet/)
     
     It is a residual learning framework that can easily train substantially deeper networks.
     
     ![image](https://user-images.githubusercontent.com/90427304/162338241-b4296885-482d-40a5-a407-bcf2981255be.png)
-    
-    Reference: https://pytorch.org/hub/pytorch_vision_resnet/
 
-  ### IResNet [6]
+  - IResNet [6]
 
-    IResNet was inspired by the structure of ResNet.
+    IResNet was inspired by the structure of [ResNet](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py).
     
     ![image](https://user-images.githubusercontent.com/90427304/162337963-e6ba3262-16b1-4fe3-b2b6-5839b8377596.png)
 
-  ### ResSaNet [3]
+  - ResSaNet [3]
 
     ResSaNet was inspired by the structure of IResNet. 
     
