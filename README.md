@@ -3,7 +3,7 @@
 
 - Introduction 
 
-During the pandemic, wearing masks makes it much more difficult for face recognition. In this way, it is necessary to improve the performance of face recognition of users. In this project, our task is to generate a feature extraction backbone called Residual Networks, for example, IResNet and ResSaNet. By using Residual Networks, it would be able to integrate the self-attention module and CNN into the same network.  In this project, it would be difficult to capture discriminative features for face recognition. An additive Angular Margin Loss (ArcFace) would also be introduced to face this challenge.
+Wearing masks during a pandemic makes face identification much more difficult. In this case, it is vital to improve user face recognition performance. Our aim in this project is to generate a feature extraction backbone called Residual Networks, for example, IResNet and ResSaNet. By using Residual Networks, it would be able to integrate the self-attention module and CNN into the same network.  In this project, it would be difficult to capture discriminative features for face recognition. An additive Angular Margin Loss (ArcFace) would also be introduced to face this challenge.
 
 
 ------------
