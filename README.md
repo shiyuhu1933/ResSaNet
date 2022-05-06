@@ -24,7 +24,7 @@ The dataset we used is [MS1M-RetinaFace](https://github.com/deepinsight/insightf
 ### Dataset Processing (Adding Masks)
 We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) created by Aqeel Anwar and Arijit Raychowdhury. <br />
 
-## Module
+## Models
   - [ResNet](https://pytorch.org/hub/pytorch_vision_resnet/)
     
     It is a residual learning framework that can easily train substantially deeper networks.
@@ -48,7 +48,28 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
     <img src="https://github.com/shiyuhu1933/ResSaNet/blob/main/readme/Screen%20Shot%202022-05-06%20at%203.54.27%20AM.png" alt="drawing" width="1000"/>
     
     Reference of MHSA block: https://github.com/leaderj1001/BottleneckTransformers
-
+    
+    ### How to change models?
+    - ResNet-50
+    ```
+    model = resnet50().cuda()
+    ```
+    - iResNet-50
+    ```
+    model = iResNet(BasicBlock, [3,4,14,3]).cuda()
+    ```
+    - iResNet-100
+    ```
+    model = iResNet(BasicBlock, [3,13,30,3]).cuda()
+    ```
+    - ResSaNet-50
+    ```
+    model = ResSaNet([iBasic, SE_iBasic_F, SE_iBasic_F, IBT], [3,4,14,3]).cuda()
+    ```
+    - ResSaNet-100
+    ```
+    model = ResSaNet([iBasic, SE_iBasic_F, SE_iBasic_F, IBT], [3,13,30,3]).cuda()
+    ```
 
 ## Loss
 
