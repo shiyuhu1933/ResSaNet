@@ -37,7 +37,7 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
 
   - IResNet [6]
 
-    IResNet was inspired by the structure of [ResNet](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py).
+    IResNet was inspired by the structure of ResNet.
     
     ![image](https://user-images.githubusercontent.com/90427304/162337963-e6ba3262-16b1-4fe3-b2b6-5839b8377596.png)
 
@@ -47,7 +47,7 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
     
     ![image](https://user-images.githubusercontent.com/90427304/162338283-564a7f66-0e18-49ba-847b-ebd394cca820.png)
     
-    Source of Multi-head Self Attention block: https://github.com/leaderj1001/BottleneckTransformers
+    [MHSA](https://github.com/leaderj1001/BottleneckTransformers/blob/main/model.py) 
 
 ------------
 ## Loss
