@@ -69,18 +69,22 @@ primaryClass={cs.CV}
     It is a residual learning framework that can easily train substantially deeper networks.
     
     ![image](https://user-images.githubusercontent.com/90427304/162338241-b4296885-482d-40a5-a407-bcf2981255be.png)
+    
+    Reference: https://pytorch.org/hub/pytorch_vision_resnet/
 
-  - IResNet
+  - IResNet [6]
 
-    IResNet was inspired by the structure of ResNet. 
+    IResNet was inspired by the structure of ResNet.
     
     ![image](https://user-images.githubusercontent.com/90427304/162337963-e6ba3262-16b1-4fe3-b2b6-5839b8377596.png)
 
-  - ResSaNet
+  - ResSaNet [3]
 
-    ResSaNet was inspired by the structure of IResNet.
+    ResSaNet was inspired by the structure of IResNet. 
     
     ![image](https://user-images.githubusercontent.com/90427304/162338283-564a7f66-0e18-49ba-847b-ebd394cca820.png)
+    
+    Reference of Multi-head Attention block: https://github.com/leaderj1001/BottleneckTransformers
 
 ------------
 - Loss
@@ -139,5 +143,6 @@ By training the baseline model IResNet-50 on two datasets, we got the accuracy a
 [6] I. C. Duta, L. Liu, F. Zhu, L. Shao.  Improved residual networks for image and video recognition. In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 9415-9422), 2021.
 
 [7] A, Srinivas., T, Lin., N, Parmar., J, Shlens., P, Abbeel., A, Vaswani. (2021). Bottleneck Transformers for Visual Recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16514-16524), 2021.
+
 
 
