@@ -30,6 +30,7 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
     It is a residual learning framework that can easily train substantially deeper networks.
     
     ![image](https://user-images.githubusercontent.com/90427304/162338241-b4296885-482d-40a5-a407-bcf2981255be.png)
+    
     Reference of ResNet: https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
 
   - IResNet [6]
@@ -37,6 +38,7 @@ We use the [MaskTheFace toolkit](https://github.com/aqeelanwar/MaskTheFace) crea
     IResNet was inspired by the structure of ResNet.
     
     ![image](https://user-images.githubusercontent.com/90427304/162337963-e6ba3262-16b1-4fe3-b2b6-5839b8377596.png)
+    
     Reference of IBasic block and IResNet: https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
 
   - ResSaNet [3]
